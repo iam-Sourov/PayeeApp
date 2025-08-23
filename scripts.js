@@ -9,7 +9,7 @@ document.getElementById("loginbtn").addEventListener("click", function (e) {
     const parseNmbr = parseInt(nmbrValue);
     const parsePin = parseInt(pinValue);
     if (parseNmbr === nmbr && parsePin === pin) {
-        window.location.href="./main.html"
+        window.location.href="./home.html"
     }
     else {
         alert("invalid Credentials")
